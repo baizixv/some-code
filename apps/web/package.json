@@ -1,13 +1,20 @@
 {
-  "name": "some-code",
+  "name": "web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "pnpm --filter web dev",
-    "build": "pnpm --filter web build",
-    "start": "pnpm --filter web start",
-    "lint": "pnpm -r lint",
-    "type-check": "pnpm -r type-check"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@some-code/game-simulator": "workspace:*",
+    "next": "^14.2.5",
+    "next-intl": "^4.5.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^20.14.12",

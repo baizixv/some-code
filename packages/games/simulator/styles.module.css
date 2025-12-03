@@ -1,0 +1,166 @@
+.container {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.content {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  max-width: 1000px;
+  width: 100%;
+  border: 1px solid #333;
+}
+
+.title {
+  text-align: center;
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #888;
+  font-size: 0.9em;
+  margin-bottom: 25px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 15px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  filter: brightness(1.2);
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button1 {
+  background-color: #4caf50;
+}
+
+.button100 {
+  background-color: #2196f3;
+}
+
+.button1000 {
+  background-color: #9c27b0;
+}
+
+.button10000 {
+  background-color: #ff5722;
+}
+
+.statsPanel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.statItem {
+  text-align: center;
+}
+
+.statLabel {
+  font-size: 0.85em;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+.statValue {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.valMoney {
+  color: #00e676;
+}
+
+.valTime {
+  color: #29b6f6;
+}
+
+.chartContainer {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.loading {
+  text-align: center;
+  margin: 10px;
+  color: #ffd700;
+}
+
+.detailsTable {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.detailsTable th,
+.detailsTable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.detailsTable th {
+  color: #888;
+  font-weight: normal;
+}
+
+.detailsTable tr:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.barColorIndicator {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.rowHighlight {
+  color: #fff;
+}
+
+.rowDimmed {
+  color: #555;
+}

@@ -1,3 +1,7 @@
+const createNextIntlPlugin = require('next-intl/plugin')
+
+const withNextIntl = createNextIntlPlugin('./i18n.ts')
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -5,11 +9,6 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
   },
-  // 移动端优化
-  experimental: {
-    optimizePackageImports: ['lucide-react'],
-  },
 }
 
-module.exports = nextConfig
-
+module.exports = withNextIntl(nextConfig)

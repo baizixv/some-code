@@ -1,0 +1,76 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "description": "Multi-platform unified application for Web and Mobile",
+    "games": "Game List",
+    "responsive": "Responsive Design",
+    "responsiveDesc": "Perfect adaptation to all screen sizes",
+    "deploy": "Vercel Deployment",
+    "deployDesc": "One-click deployment, global acceleration"
+  },
+  "games": {
+    "simulator": {
+      "name": "Wealth Cost Simulator",
+      "description": "+100M money per second | 1 in 100M death rate per second"
+    }
+  },
+  "simulator": {
+    "title": "Wealth Cost Simulator",
+    "subtitle": "+100M money per second | 1 in 100M death rate per second",
+    "buttons": {
+      "single": "Single Simulation",
+      "hundred": "Hundred Simulation",
+      "thousand": "Thousand Simulation",
+      "tenThousand": "Ten Thousand Simulation"
+    },
+    "loading": "Calculating parallel universes...",
+    "stats": {
+      "count": "Simulated Count",
+      "avgTime": "Average Survival Time",
+      "maxTime": "Longest Survivor",
+      "totalMoney": "Total Wealth Generated"
+    },
+    "chart": {
+      "title": "Survival Time Distribution (Display: Count | Percentage)",
+      "yAxis": "Count",
+      "datasetLabel": "Count",
+      "unit": ""
+    },
+    "table": {
+      "stage": "Survival Stage",
+      "count": "Count",
+      "percentage": "Percentage",
+      "description": "Stage Description"
+    },
+    "stages": {
+      "0-1天": "Extremely Unlucky (Less than 1 day)",
+      "1天-1月": "Fleeting Moment (1 day - 1 month)",
+      "1月-1年": "Brief Wealth (1 month - 1 year)",
+      "1年-3年": "Moderate Fortune (1 year - 3 years)",
+      "3年-10年": "Standard Lifespan (3 years - 10 years - Probability Center)",
+      "10年-20年": "Lucky Longevity (10 years - 20 years)",
+      "20年以上": "Chosen One (20+ years)"
+    },
+    "labels": {
+      "0-1天": "0-1 day",
+      "1天-1月": "1 day - 1 month",
+      "1月-1年": "1 month - 1 year",
+      "1年-3年": "1 year - 3 years",
+      "3年-10年": "3 years - 10 years",
+      "10年-20年": "10 years - 20 years",
+      "20年以上": "20+ years"
+    }
+  },
+  "error": {
+    "title": "Something went wrong!",
+    "description": "Sorry, an unexpected error occurred. Please try again later.",
+    "errorId": "Error ID",
+    "retry": "Try Again",
+    "goHome": "Go Home"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist.",
+    "goHome": "Go Home"
+  }
+}
