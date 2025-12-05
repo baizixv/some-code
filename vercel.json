@@ -3,7 +3,6 @@
   "devCommand": "cd apps/web && pnpm dev",
   "installCommand": "pnpm install",
   "framework": "nextjs",
-  "regions": ["hkg1"],
-  "rootDirectory": "apps/web"
+  "regions": ["hkg1"]
 }
 
