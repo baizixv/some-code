@@ -40,7 +40,7 @@ importers:
     dependencies:
       '@some-code/game-simulator':
         specifier: workspace:*
-        version: link:../../packages/games/simulator
+        version: link:../../packages/game-simulator
       next:
         specifier: ^14.2.5
         version: 14.2.33(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -82,7 +82,7 @@ importers:
         specifier: ^5.5.4
         version: 5.9.3
 
-  packages/games/simulator:
+  packages/game-simulator:
     dependencies:
       chart.js:
         specifier: ^4.5.1
